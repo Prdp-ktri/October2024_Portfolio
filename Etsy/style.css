@@ -1,0 +1,1592 @@
+.etsy {
+  font-style: Elephant;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 55px;
+  color: orange;
+  font-weight: 300;
+}
+
+select {
+  position: absolute;
+  left: 235px;
+  border: 3px solid black;
+  border-radius: 30%;
+}
+
+.input, input {
+  position: relative;
+  left: 220px;
+  top: -28px;
+  size: 200px;
+  font-size: large;
+  height: 40px;
+  width: 600px;
+  border-radius: 30px;
+}
+
+.search-box{
+  background-color: orange;
+  position: relative;
+  bottom: 70px;
+  right: -225px;
+  height: 38px;
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  cursor: search;
+}
+
+.search-box:hover {
+  height: 40px;
+  width: 50px;
+  border-radius: 0px 25px 25px 0;
+}
+
+.search-glass {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  right: 0px;
+  top: 2px;
+}
+
+.signin {
+  cursor: pointer;
+  position: relative;
+  right: -1120px;
+  bottom: 75px;
+}
+
+.heart {
+  position: relative;
+  right: -1122px;
+  bottom: 75px;
+}
+
+.gift {
+  position: relative;
+  right: -1127px;
+  bottom: 75px;
+  text-decoration: none;
+}
+
+.cart {
+  position: relative;
+  right: -1132px;
+  bottom: 75px;
+}
+
+.form-select {
+  margin: 15px;
+  padding: 5px;
+  position: relative;
+  left: 220px;
+  top: 5px;
+}
+
+.giftmode {
+  cursor: pointer;
+  float: left;
+  list-style-type: none;
+  font-size: 25px;
+  position: relative;
+  left: 125px;
+}
+
+.halloween {
+  cursor: pointer;
+  float: left;
+  position: relative;
+  left: 250px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.homefurn {
+  cursor: pointer;
+  float: right;
+  position: relative;
+  left: 375px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.fashion {
+  cursor: pointer;
+  float: right;
+  position: relative;
+  right: -650px;
+  bottom: 30px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.registry {
+  cursor: pointer;
+  float: right;
+  position: relative;
+  right: -1050px;
+  bottom: 30px;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.registry:hover {
+  background-color: lightgray;
+  width: 75px;
+  height: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.fashion:hover {
+  background-color: lightgray;
+  width: 150px;
+  height: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.homefurn:hover {
+  background-color: lightgray;
+  width: 100px;
+  height: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.halloween:hover {
+  background-color: lightgray;
+  width: 225px;
+  height: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.gidtmode:hover {
+  background-color: lightgray;
+  width: 200px;
+  height: 12px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.discover {
+  height: 200px;
+  width: 1550px;
+  background-color: orange;
+}
+
+.discovers {
+  font-size: 35px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.secondNav {
+  position: relative;
+  margin-top: -50px;
+
+}
+
+.pets {
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.metal {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  float: left;
+}
+
+.baby-cloth {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: -50px;
+}
+
+.striped-bedding {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: -50px;
+}
+
+.stuffed-toys {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 0;
+}
+
+.vintage-light {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 0;
+  left: -50px;
+}
+
+.container {
+  height: 100px;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sqr {
+  position: relative;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.caption {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.vintage-light:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.stuffed-toys:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.striped-bedding:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.baby-cloth:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.metal:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.pets:hover {
+  box-shadow: 10px 0px;
+  background-color: lightgray;
+}
+
+.editors {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 700px;
+  left: 100px;
+}
+
+.halloweeen {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  right: -350px;
+}
+
+.hoodie {
+  width: 400px;
+  height: 400px;
+}
+
+.halloweeen:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.rupee {
+  position: relative;
+  top: 10px;
+  left: 354px;
+}
+
+.blacki:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.blacki {
+  width: 300px;
+  height: 400px;
+}
+
+.blackie {
+  position: relative;
+  top: -400px;
+  right: -775px;
+}
+
+.baskett {
+  width: 400px;
+  height: 400px;
+}
+
+.basket {
+  position: relative;
+  top: -850px;
+  right: -1100px;
+}
+
+.baskett:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.frame {
+  width: 300px;
+  height: 200px;
+}
+
+.framing {
+  position: relative;
+  top: -850px;
+  right: -50px;
+}
+
+.pframe {
+  position: relative;
+  margin-top: -850px;
+  right: -50px;
+}
+
+.framing:hover {
+  box-shadow: 10px 10px 10px 10px;
+  scrollbar-shadow-color: yellow;
+}
+
+.earrings {
+  width: 400px;
+  height: 400px;
+}
+
+.earring {
+  position: relative;
+  top: -1050px;
+  right: -850px;
+}
+
+.ear {
+  position: relative;
+  margin-top: -1050px;
+  right: -850px;
+}
+
+.earring:hover {
+  box-shadow: 10px 10px 10px 10px;
+  scrollbar-shadow-color: yellow;
+}
+
+.spooky {
+  position: relative;
+  margin-top: 50px;
+  right: -950px;
+}
+
+.ninenine {
+  position: relative;
+  margin-top: -1050px;
+  right: -950px;
+  font-size: 58px;
+}
+
+.popular {
+  position:relative;
+  left: 45px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.anvrsry {
+  border: 3px solid black;
+  border-radius: 50px;
+  position:relative;
+  left: 45px;
+  height: 350px;
+  width: 400px;
+}
+
+.mgifts {
+  border: 3px solid black;
+  border-radius: 50px;
+  position: relative;
+  left: 500px;
+  top: -355px;
+  height: 350px;
+  width: 300px;
+}
+
+.hisgifts {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px 50px 0 0;
+}
+
+.couple {
+  border-radius: 50px 50px 0 0;
+  position: absolute;
+  right: 3px;
+}
+
+.anvrsry:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.anniversary {
+  position: relative;
+  left: 45px;
+  top: 275px;
+}
+
+.mens {
+  position: relative;
+  left: 35px;
+  top: -7px;
+}
+
+.mgifts:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.womens {
+  position: relative;
+  left: 45px;
+}
+
+.hergifts {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px 50px 0 0;
+  height: 300px;
+  width: 300px;
+}
+
+.womens {
+  position: relative;
+  left: 20px;
+  top: -10px;
+}
+
+.wgifts {
+  border: 3px solid black;
+  border-radius: 50px;
+  height: 350px;
+  width: 300px;
+  position: relative;
+  left: 850px;
+  top: -715px;
+}
+
+.wgifts:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.pgifts {
+  border: 3px solid black;
+  border-radius: 50px;
+  height: 350px;
+  width: 300px;
+  position: relative;
+  left: 1205px;
+  top: -1070px;
+}
+
+.pgifts:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.personalgifts {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px 50px 0 0;
+}
+
+.personalised {
+  position: relative;
+  left: 20px;
+  top: -10px;
+}
+
+.local {
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: lightsalmon;
+}
+
+.locals {
+  position: relative;
+  top: -1000px;
+  left: 50px;
+}
+
+.venadeamor {
+  border: 3px solid gray;
+  border-radius: 25px;
+  width: 300px;
+  height: 500px
+}
+
+.vda {
+  border-radius: 25px 25px 0px 0px;
+  width: 300px;
+  height: 450px;
+}
+
+.venadeamorr {
+  position: relative;
+  top: -5px;
+  right: -50px;
+}
+
+.hearticon {
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  position: relative;
+  right: -3px;
+  top: 3px;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  position:relative;
+  top: -425px;
+  right: -250px;
+}
+
+.circle:hover {
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.venadeamorr {
+  position: relative;
+  top: -80px;
+  right: -80px;
+}
+
+.venadeamor:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.venadeamor {
+  position: relative;
+  top: -1150px;
+  right: -450px;
+}
+
+.locals {
+  position: relative;
+  top: -700px;
+}
+
+.local:hover {
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.vdalogo {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: -30px;
+  right: -20px;
+  border: 1px solid black;
+}
+
+.di {
+  border-radius: 25px 25px 0px 0px;
+  width: 300px;
+  height: 450px;
+}
+
+.circled {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  position: relative;
+  top: -100px;
+  right: -100px;
+}
+
+.circled:hover {
+  box-shadow: 1px 1px 1px 1px;
+} 
+
+.heartic0n {
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  position: relative;
+  right: -3px;
+  top: 3px;
+}
+
+.dilogo {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: -30px;
+  right: -20px;
+  border: 1px solid black;
+}
+
+.dioraa {
+  position: relative;
+  top: -2245px;
+  right: -900px;
+}
+
+.diora {
+  border: 3px solid gray;
+  border-radius: 25px;
+  width: 300px;
+  height: 500px;
+}
+
+.diora:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.di {
+  position: relative;
+  top: -2163px;
+  right: -822px;
+}
+
+.heartic0n {
+  position: relative;
+  top: 10px;
+}
+
+.circled {
+  position: relative;
+  top: -2590px;
+  right: -1070px;
+}
+
+.dilogo {
+  position: relative;
+  top: -2191px;
+  right: -845px;
+}
+
+.diora {
+  position: relative;
+  top: -1660px;
+  right: -820px;
+}
+
+.mm {
+  width: 300px;
+  height: 500px;
+  border: 3px solid gray;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+  top: -2750px;
+  right: -1200px;
+}
+
+.resinj {
+  width: 300px;
+  height: 450px;
+  border-radius: 25px 25px 0 0;
+}
+
+.mmlogo {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: -30px;
+  right: -15px;
+  border: 3px solid gray;
+}
+
+.mmj {
+  color: black;
+  position: relative;
+  top: -2810px;
+  right: -1275px;
+}
+
+.hearti {
+  position: relative;
+  top: 5px;
+  right: -2px;
+  width: 20x;
+  height: 20px;
+}
+
+.heartc {
+  position: relative;
+  border: 3px solid gray;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: -435px;
+  right: -250px;
+  background-color: white;
+}
+
+.heartc:hover {
+  box-shadow: 2px 2px 0 0;
+  color: white;
+}
+
+.mm:hover {
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.blog {
+  position: relative;
+  top: -2750px;
+  right: -50px;
+}
+
+.thumbnail-A {
+  width: 400px;
+  height: 425px;
+  border: 3px solid gray;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration-color: black;
+  position: relative;
+  top: -2700px;
+  right: -50px;
+}
+
+.comfy {
+  width: 400px;
+  height: 280px;
+  border-radius: 25px 25px 0 0;
+}
+
+.thumbnail-A:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.thumbnail-B {
+  width: 400px;
+  height: 425px;
+  border: 3px solid gray;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration-color: black;
+  position: relative;
+  top: -3130px;
+  right: -500px;
+}
+
+.thumbnail-B:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.bags {
+  width: 400px;
+  height: 280px;
+  border-radius: 25px 25px 0 0;
+}
+
+.thumbnail-C {
+  width: 400px;
+  height: 425px;
+  border: 3px solid gray;
+  border-radius: 25px 25px 25px 25px;
+  text-decoration-color: black;
+  position: relative;
+  top: -3555px;
+  right: -950px;
+}
+
+.thumbnail-C:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.kids {
+  width: 400px;
+  height: 280px;
+  border-radius: 25px 25px 0 0;
+}
+
+.answers {
+  width: 1600px;
+  height: 2100px;
+  background-color: beige;
+  position: relative;
+  top: -3500px;
+}
+
+.etsyy {
+  font-family: 'Arial Narrow';
+  position: relative;
+  right: -600px;
+  top: 80px;
+}
+
+.about {
+  position: relative;
+  right: -600px;
+  top: 80px;
+  color: black;
+}
+
+.marketplace {
+  width: 1200px;
+  height: 400px;
+  position: relative;
+  top: 100px;
+  right: -120px;
+  font-size: x-large;
+}
+
+.choose {
+  position: relative;
+  top: -110px;
+  right: -120px;
+  font-size: xx-large;
+}
+
+.community {
+  position: relative;
+  top: -170px;
+  right: -120px;
+  font-size: x-large;
+}
+
+.together {
+  position: relative;
+  top: -190px;
+  right: -120px;
+  width: 1200px;
+  font-size: x-large;
+}
+
+.independent {
+  position: relative;
+  top: -225px;
+  right: -120px;
+  font-size: x-large;
+}
+
+.selling {
+  position: relative;
+  top: -240px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.peace {
+  position: relative;
+  top: -280px;
+  right: -120px;
+  font-size: x-large;
+}
+
+.purchprotection {
+  position: relative;
+  top: -290px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.whatall {
+  position: relative;
+  top: -260px;
+  right: -120px;
+  font-size: xx-large;
+}
+
+.imagination {
+  position: relative;
+  top: -320px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.homenliv {
+  position: relative;
+  top: -320px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.clothingg {
+  position: relative;
+  top: -320px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.Accessoriess {
+  position: relative;
+  top: -320px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.Gifts {
+  position: relative;
+  top: -320px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.buyonetsy {
+  position: relative;
+  top: -280px;
+  right: -120px;
+  font-size: xx-large;
+}
+
+.specific {
+  position: relative;
+  top: -340px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.sellonetsy {
+  position: relative;
+  top: -300px;
+  right: -120px;
+  font-size: xx-large;
+}
+
+.searchh {
+  position: relative;
+  top: -360px;
+  right: -120px;
+  font-size: x-large;
+  width: 1200px;
+}
+
+.question {
+  position: relative;
+  top: -320px;
+  right: -500px;
+}
+
+.helpcenter {
+  position: relative;
+  top: -320px;
+  right: -650px;
+  font-size: larger;
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+}
+
+.helpcenter:hover {
+  box-shadow: 5px 5px 5px 5px;
+  color: gray;
+}
+
+.subscribe {
+  width: 1600px;
+  height: 150px;
+  background-color: mediumslateblue;
+  position: relative;
+  top: -3515px;
+}
+
+.ideas {
+  position: relative;
+  top: 25px;
+  right: -500px;
+  color: darkblue;
+}
+
+.emaill {
+  position: relative;
+  top: 25px;
+  right: -500px;
+}
+
+.btn {
+  position: relative;
+  right: -250px;
+  top: 20px;
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  border: 3px solid black;
+  color: blue;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 5px 5px;
+  color: gray;
+}
+
+.renewable {
+  width: 1600px;
+  height: 100px;
+  background-color: blueviolet;
+  position: relative;
+  top: -3515px;
+}
+
+.etsyrenewlogo {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  right: -500px;
+  top: 15px;
+}
+
+.elrenew {
+  position: relative;
+  top: -60px;
+  right: -600px;
+}
+
+.footerblue {
+  width: 1600px;
+  height: 300px;
+  background-color: purple;
+  position: relative;
+  top: -3515px;
+}
+
+.darkblue {
+  width: 400px;
+  height: 300px;
+  background-color: darkblue;
+  position: relative;
+  top: 0px;
+  right: -75px;
+}
+
+.orangetsy {
+  width: 75px;
+  height: 75px;
+  border: 1px solid orange;
+  border-radius: 10px 10px 10px 10px;
+  background-color: orange;
+  position: relative;
+  right: -150px;
+  top: 75px;
+}
+
+.whitetsy {
+  color: white;
+  position: relative;
+  right: -2.5px;
+  top: -27.5px;
+  font-size: 40px;
+}
+
+.app {
+  width: 200px;
+  height: 50px;
+  border: 3px solid blue;
+  border-radius: 15px 15px 15px 15px;
+  background-color: lightblue;
+  position: relative;
+  top: 100px;
+  right: -85px;
+}
+
+.lastone {
+  width: 1600px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  top: -3515px;
+}
+
+.IER {
+  position: relative;
+  top: 25px;
+  color: white;
+  background-color: black;
+  width: 240px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.IER:hover {
+  background-color: white;
+  color: black;
+}
+
+.lastone {
+  color: white;
+  position: relative;
+  top: -3515px;
+}
+
+.etsyinc2024 {
+  color: white;
+  position: relative;
+  right: -750px;
+  font-size: small;
+}
+
+.terms {
+  color: white;
+  position: relative;
+  right: -850px;
+  top: -15px;
+  font-size: small;
+}
+
+.privacyrights {
+  color: white;
+  position: relative;
+  right: -950px;
+  top: -30px;
+  font-size: small;
+}
+
+.Ads {
+  color: white;
+  position: relative;
+  right: -1025px;
+  top: -45px;
+  font-size: small;
+}
+
+.localshops {
+  color: white;
+  position: relative;
+  right: -1150px;
+  top: -60px;
+  font-size: small;
+}
+
+.regions {
+  color: white;
+  position: relative;
+  right: -1250px;
+  top: -75px;
+  font-size: small;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+}
+
+.line {
+  width: 1600px;
+  position: relative;
+  top: 60px;
+}
+
+.gifted {
+  position: relative;
+  right: -50px;
+  top: 50px;
+  font-size: large;
+}
+
+.xtra {
+  position: relative;
+  right: -50px;
+  top: 5px;
+  font-size: 50px;
+}
+
+.tags {
+  border: 2px solid lightgray;
+  width: 1350px;
+  height: 250px;
+  border-radius: 25px;
+  position: relative;
+  right: -50px;
+  top: -35px;
+}
+
+.whoshopping {
+  position: relative;
+  font-size: 25px;
+  top: 15px;
+  right: -50px;
+}
+
+.btnfriend {
+  background-color: lightgray;
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnhusband {
+  background-color: lightgray;
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnwife {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnpartner {
+  background-color: lightgray;
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnmum {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btndad {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnparent {
+  background-color: lightgray;
+  height: 35px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnbaby {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnbf {
+  background-color: lightgray;
+  height: 35px;
+  width: 85px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btngf {
+  background-color: lightgray;
+  height: 35px;
+  width: 85px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnmyself {
+  background-color: lightgray;
+  height: 35px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btndaughter {
+  background-color: lightgray;
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnson {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnchild {
+  background-color: lightgray;
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btngrandchild {
+  background-color: lightgray;
+  height: 35px;
+  width: 85px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btngrandparent {
+  background-color: lightgray;
+  height: 35px;
+  width: 95px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnsis {
+  background-color: lightgray;
+  height: 35px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnbro {
+  background-color: lightgray;
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnsibling {
+  background-color: lightgray;
+  height: 35px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btntwf {
+  background-color: lightgray;
+  height: 35px;
+  width: 130px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnteacher {
+  background-color: lightgray;
+  height: 35px;
+  width: 65px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btncoworker {
+  background-color: lightgray;
+  height: 35px;
+  width: 85px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnneighbour {
+  background-color: lightgray;
+  height: 35px;
+  width: 85px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnsm1else {
+  background-color: lightgray;
+  height: 35px;
+  width: 115px;
+  border-radius: 15px;
+  border: 0px solid lightgray;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnnxtqstn {
+  background-color: white;
+  height: 35px;
+  width: 115px;
+  border-radius: 15px;
+  border: 2px solid black;
+  font-weight: 550;
+  position: relative;
+  right: -45px;
+  margin: 5px;
+}
+
+.btnnxtqstn:hover {
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.fntstcfinds {
+  position: relative;
+  right: -50px;
+  font-size: 30px;
+}
+
+.crslhalloween {
+  width: 300px;
+  height: 300px;
+  background-color: orangered;
+  border-radius: 20px;
+  position: relative;
+  right: -50px;
+  top: -20px;
+}
+
+.date {
+  width: 60px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: skyblue;
+  font-size: 12.5px;
+  position: relative;
+  top: 20px;
+  right: -20px;
+}
+
+.clndr {
+  size: 10px;
+}
