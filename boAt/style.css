@@ -1,0 +1,1475 @@
+.disclaimer {
+  background-color: lightgray;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+
+.shop {
+  position: relative;
+  left: -175px;
+}
+
+.logo {
+  width: 6rem;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  /* position:a; */
+  /* position: fixed; */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin: 10px;
+  padding: 10px;
+}
+
+#searchproducts {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 25rem;
+  background-color: lightgray;
+  border: 0px solid lightgray;
+  position: absolute;
+  bottom: 38.75rem;
+  right: 10rem;
+  font-size: medium;
+}
+
+.magnifyglass {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 27.5rem;
+  top: 4.7rem;
+}
+
+input[type="search"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+
+.human {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 8rem;
+  top: 80px;
+}
+
+.suitcase {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 6rem;
+  top: 80px;
+}
+
+.cat-nav:hover {
+  cursor: pointer;
+}
+
+.guarrantees {
+  width: 100%;
+  height: 5rem;
+  background-color: lightgray;
+}
+
+.warranty {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  margin-left: 5rem;
+}
+
+.replacementpng {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 25rem;
+}
+
+.replacement {
+  position: absolute;
+  top: 49rem;
+}
+
+.delivery {
+  position: absolute;
+  top: 49rem;
+}
+
+.deliverypng {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 50rem;
+}
+
+.billing {
+  position: absolute;
+  top: 49rem;
+}
+
+.billpng {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 75rem;
+}
+
+.festivejpg {
+  margin: 2rem;
+  margin-top: 1rem;
+  width: 1400px;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.view {
+  float: right;
+}
+
+.festivegrand {
+  font-size: 2rem;
+}
+
+.airdopes131 {
+  width: 12rem;
+  height: 16rem;
+  border-radius: 25px 25px 0 0;
+}
+
+.airdopes1 {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+}
+
+.engraving {
+  color: white;
+  background-color: black;
+  width: 10rem;
+  height: 1.25rem;
+  font-size: smaller;
+  position: absolute;
+  top: 71rem;
+  right: 77.5rem;
+  border-radius: 25px 0 0 0;
+}
+
+.playback {
+  color: black;
+  background-color: rgb(228, 228, 0);
+  width: 200px;
+  border-radius: 0 0 25px 25px;
+}
+
+.ProductName {
+  font-size: larger;
+}
+
+.star {
+  width: 4rem;
+  height: 1.5rem;
+  background-color: beige;
+  position: absolute;
+  right: 75rem;
+  top: 86.5rem;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: larger;
+}
+
+.cartbutton {
+  background-color: white;
+  color: blue;
+  width: 190px;
+  border-radius: 0 0 20px 20px;
+}
+
+.cartbutton:hover {
+  background-color: blue;
+  color: white;
+}
+
+.airdopes141 {
+  width: 12rem;
+  height: 16rem;
+  border-radius: 25px 25px 0 0;
+}
+
+.star2 {
+  width: 4rem;
+  height: 1.5rem;
+  background-color: beige;
+  position: absolute;
+  right: -0.5rem;
+  top: 16rem;
+  border-radius: 0 0 5px 0;
+}
+
+.airdopes2 {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+  margin: 1rem;
+  position: absolute;
+  top: 69.75rem;
+  right: 62rem;
+}
+
+.container {
+  display: flex;
+}
+
+.engraving2 {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 0.2rem;
+  border-radius: 10px 0 0 0;
+}
+
+.airdopes161 {
+  /* width: 12rem; */
+  height: 16rem;
+  border-radius: 25px 25px 0 0;
+}
+
+.airdopes3 {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+  margin: 1rem;
+  position: absolute;
+  top: 69.75rem;
+  right: 49rem;
+}
+
+.engraving3 {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 0.2rem;
+  border-radius: 10px 0 0 0;
+}
+
+.rockerz {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+  margin: 1rem;
+  position: absolute;
+  top: 69.75rem;
+  right: 36rem;
+}
+
+.rockerz255 {
+  width: 12rem;
+  height: 16rem;
+  border-radius: 25px 25px 0 0;
+}
+
+.bestseller {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 0rem;
+  border-radius: 10px 0 0 0;
+}
+
+.atom {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+  margin: 1rem;
+  position: absolute;
+  top: 69.75rem;
+  right: 23rem;
+}
+
+.alpha {
+  border: 1px solid black;
+  width: 12rem;
+  height: 24rem;
+  border-radius: 25px;
+  margin: 1rem;
+  position: absolute;
+  top: 69.75rem;
+  right: 10rem;
+}
+
+.categories {
+  font-size: 2rem;
+  display: flex;
+}
+
+.wirelessjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wirelesscard {
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
+.neckbands {
+  text-decoration: none;
+  color: black;
+  justify-content: space-around;
+}
+
+.neckbandjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.smartwatch {
+  justify-content: space-around;
+}
+
+.smartwatchjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.smartwatch h5 {
+  text-decoration: none;
+  color: black;
+}
+
+.cat {
+  display: flex;
+}
+
+.nirvana {
+  text-decoration: none;
+}
+
+.nirvanajpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.nirvana h5 {
+  color: black;
+}
+
+.wirelessheadphone {
+  text-decoration: none;
+}
+
+.wlheadphonejpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wirelessheadphone h5 {
+  color: black;
+  text-decoration: none;
+}
+
+.wireless-speaker {
+  text-decoration: none;
+}
+
+.wlspeakerjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wireless-speaker h5 {
+  color: black;
+  text-decoration: none;
+}
+
+.wired-hp {
+  text-decoration: none;
+}
+
+.wiredhpjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wired-hp h5 {
+  text-decoration: none;
+  color: black;
+}
+
+.wired-ep {
+  text-decoration: none;
+}
+
+.wiredepjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.wired-ep h5 {
+  text-decoration: none;
+  color: black;
+}
+
+.soundbar {
+  text-decoration: none;
+}
+
+.soundbarjpg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.soundbar h5 {
+  text-decoration: none;
+  color: black;
+}
+
+.bestsellers {
+  font-size: 2rem;
+}
+
+video {
+  border-radius: 25px;
+}
+
+.swvideo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  justify-content: space-evenly;
+}
+
+.sw {
+  font-size: medium;
+}
+
+.toppicks {
+  font-size: 2rem;
+}
+
+.toppickbtn {
+  width: 10rem;
+  height: 3rem;
+  background-color: lightgray;
+  border: 0px solid lightgray;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.toppickbtn:hover {
+  background-color: darkgray;
+}
+
+.LDiscovery {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.newlaunch {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 2380px;
+  border-radius: 25px 0 0 0;
+}
+
+.nlaunches {
+  margin-left: 1rem;
+}
+
+.AavanteBar {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.nlaunches2 {
+  margin-left: 15rem;
+  position: absolute;
+  top: 148.5rem;
+}
+
+.newlaunch2 {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 0 0 0;
+}
+
+.EnigmaOrion {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.nlaunches3 {
+  margin-left: 29rem;
+  position: absolute;
+  top: 148.5rem;
+}
+
+.newlaunch3 {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 0 0 0;
+}
+
+.nlaunches4 {
+  margin-left: 43rem;
+  position: absolute;
+  top: 148.5rem;
+}
+
+.UltimaRegal {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.newlaunch4 {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 0 0 0;
+}
+
+.nlaunches5 {
+  margin-left: 57rem;
+  position: absolute;
+  top: 148.5rem;
+}
+
+.EnigmaRadiant {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.newlaunch5 {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 0 0 0;
+}
+
+.nlaunches6 {
+  margin-left: 71rem;
+  position: absolute;
+  top: 148.5rem;
+}
+
+.Airdopes301 {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.newlaunch6 {
+  background-color: black;
+  color: white;
+  width: 100px;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 0 0 0;
+}
+
+.lifestyle {
+  font-size: 2rem;
+}
+
+.lshumans {
+  display: flex;
+  margin-left: 3rem;
+}
+
+.ffhuman {
+  width: 21rem;
+  height: 28rem;
+}
+
+.fftext {
+  font-size: 2rem;
+  position: absolute;
+  top: 203rem;
+}
+
+.fphuman {
+  width: 20rem;
+  height: 28rem;
+  margin-left: 3rem;
+}
+
+.fptext {
+  font-size: 2rem;
+  position: absolute;
+  top: 203rem;
+  margin-left: 25rem;
+}
+
+.fwhuman {
+  width: 20rem;
+  height: 28rem;
+  margin-left: 3rem;
+}
+
+.fwtext {
+  font-size: 2rem;
+  position: absolute;
+  top: 203rem;
+  margin-left: 48rem;
+}
+
+.fahuman {
+  width: 20rem;
+  height: 28rem;
+  margin-left: 3rem;
+}
+
+.fatext {
+  font-size: 2rem;
+  position: absolute;
+  top: 203rem;
+  margin-left: 70rem;
+}
+
+.recent {
+  font-size: 2rem;
+  display: flex;
+}
+
+.nlaunches7 {
+  margin-left: 5rem;
+}
+
+.nlaunches8 {
+  float: left;
+  position: absolute;
+  top: 210rem;
+  margin-left: 20rem;
+}
+
+.NirvanaIon {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+}
+
+.newlaunch7 {
+  position: absolute;
+  top: 210.2rem;
+  margin-left: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 15px 0 0 0;
+}
+
+.newlaunch8 {
+  position: absolute;
+  top: 0rem;
+  margin-left: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 15px 0 0 0;
+}
+
+.best-of-boat {
+  font-size: 2rem;
+}
+
+.Nirvana_Ions {
+  position: absolute;
+  top: 235rem;
+  margin-left: 15rem;
+}
+
+.bes {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.htsns {
+  background-color: white;
+  border: 0px solid white;
+}
+
+.htsns:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.top-earbuds {
+  background-color: white;
+  border: 0px solid white;
+}
+
+.top-earbuds:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.top-watches {
+  background-color: white;
+  border: 0px solid white;
+}
+
+.top-watches:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.car-accessories {
+  background-color: white;
+  border: 0px solid white;
+}
+
+.car-accessories:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.tribe {
+  font-size: 2rem;
+}
+
+.videoairdopes71 {
+  width: 10rem;
+  height: 20rem;
+}
+
+.tribe-products {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+}
+
+.airdopes71:hover {
+  cursor: pointer;
+}
+
+.airdopes71 {
+  margin: 2rem;
+}
+
+.airdopes161:hover {
+  cursor: pointer;
+}
+
+/* .airdopes161 {
+  margin: 0rem;
+} */
+
+.NirvanaIonv:hover {
+  cursor: pointer;
+}
+
+.NirvanaIonv {
+  margin: 2rem;
+  /* margin-left: 10rem; */
+}
+
+.prz {
+  width: 100%;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 0 0 15px 15px;
+}
+
+.prz:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.RockerzV2 {
+  margin: 2rem;
+  margin-left: 2rem;
+}
+
+.blogs {
+  font-size: 2rem;
+  position: absolute;
+  bottom: -248rem;
+}
+
+.popular {
+  background-color: lightgray;
+  color: black;
+  border-radius: 15px;
+  margin: 6rem;
+  position: absolute;
+  top: 287rem;
+}
+
+.popular:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.latest {
+  background-color: lightgray;
+  color: black;
+  border-radius: 15px;
+  margin: 5rem;
+  position: absolute;
+  top: 288rem;
+  left: 10rem;
+}
+
+.latest:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.gamingjpg {
+  width: 100%;
+}
+
+.gamecaption {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 4rem;
+}
+
+.game2ndcaption {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.gamingblog p {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+H3 {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+.gamingblog1 {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.Game2 {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.watchfacesjpg {
+  width: 100%;
+  height: 100%;
+}
+
+.wftxt {
+  text-align: center;
+  font-size: 4rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.wfblogc {
+  font-weight: bold;
+}
+
+.wfblog {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.chaos {
+  width: 100%;
+  height: 100%;
+}
+
+.chaoscaption {
+  text-align: center;
+  font-size: 4rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.chaosc {
+  font-weight: bold;
+}
+
+.chaosblog {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.fitnessblogjpg {
+  width: 100%;
+  height: 100%;
+}
+
+.fitblogcaption {
+  text-align: center;
+  font-size: 4rem;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.fitblog {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.fitjpg {
+  margin-left: 35rem;
+  margin-right: 35rem;
+}
+
+.fit2jpg {
+  margin-left: 35rem;
+  margin-right: 35rem;
+}
+
+.fit3jpg {
+  margin-left: 35rem;
+  margin-right: 35rem;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.gamejpg {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 25px 25px 0 0;
+  margin-left: 5rem;
+}
+
+.game {
+  position: absolute;
+  top: 295rem;
+  margin-left: 0.5rem;
+  width: 780px;
+}
+
+.game h3 {
+  margin-left: 5rem;
+  color: black;
+}
+
+.lightgray {
+  margin-left: 5rem;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.readmore {
+  border-radius: 25px;
+  margin-left: 10rem;
+}
+
+.game:hover {
+  cursor: pointer;
+}
+
+.watchface {
+  margin-left: 1rem;
+  position: absolute;
+  top: 295rem;
+  width: 1000px;
+}
+
+.watchface:hover {
+  cursor: pointer;
+}
+
+.wfjpg {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 25px 25px 0 0;
+  margin-left: 27rem;
+}
+
+.watchface h3 {
+  margin-left: 28rem;
+  color: black;
+}
+
+.readmore2 {
+  border-radius: 25px;
+  margin-left: 30rem;
+}
+
+.lightgray2 {
+  margin-left: 28rem;
+}
+
+.chaos {
+  margin-left: 1.8rem;
+  position: absolute;
+  top: 295rem;
+  width: 1000px;
+}
+
+.chaos:hover {
+  cursor: pointer;
+}
+
+.chaosjpg {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 25px 25px 0 0;
+  margin-left: 49rem;
+}
+
+.chaos h3 {
+  margin-left: 49rem;
+  width: 24rem;
+  color: black;
+}
+
+.readmore3 {
+  border-radius: 25px;
+  margin-left: 49rem;
+}
+
+.lightgray3 {
+  margin-left: 49rem;
+}
+
+.press {
+  font-size: 2rem;
+  position: absolute;
+  top: 320rem;
+}
+
+.businessworld {
+  margin-left: 5rem;
+  width: 35rem;
+  height: 20rem;
+  background-color: lightgray;
+  position: absolute;
+  top: 325rem;
+  display: flex;
+}
+
+.bwjpg {
+  width: 10rem;
+  height: 5rem;
+  margin: 10rem;
+}
+
+.opinion {
+  width: 50rem;
+  height: 20rem;
+  background-color: darkgrey;
+  position: absolute;
+  top: 325rem;
+  left: 40rem;
+}
+
+.opinion p {
+  font-size: 2rem;
+  position: absolute;
+  left: 2rem;
+  top: 6rem;
+  margin-right: 2rem;
+}
+
+.foot {
+  width: 100%;
+  height: 30rem;
+  background-color: lightgrey;
+  position: absolute;
+  bottom: -330rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerlogo {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.subscribe {
+  font-size: 2rem;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+#emailsubscribe {
+  width: 20rem;
+  height: 2rem;
+  margin-left: 2rem;
+}
+
+.submit {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 23rem;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 30rem;
+  bottom: -330rem;
+}
+
+.shop ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.helpp {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 50rem;
+  bottom: -320rem;
+}
+
+.helpp ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 70rem;
+  bottom: -325rem;
+}
+
+.company ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.shopwe {
+  text-decoration: none;
+  color: black;
+}
+
+.gethelp {
+  text-decoration: none;
+  color: black;
+}
+
+.companyy {
+  text-decoration: none;
+  color: black;
+}
+
+.category {
+  border: 0px solid white;
+  background-color: white;
+}
+
+.categoryy:hover {
+  display: flex;
+}
+
+.footer2 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.route {
+  font-size: 0.8rem;
+  margin-left: 5rem;
+}
+
+.fe {
+  margin-left: 5rem;
+}
+
+.fit1 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px 0 0 0;
+}
+
+.watchprimia {
+  margin-left: 5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.watchtitle {
+  position: absolute;
+  top: 15rem;
+  right: 70rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.prz2 {
+  width: 100%;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 0 0 15px 15px;
+}
+
+.prz2:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.watchprimia {
+  border: 1px solid gray;
+  width: 24rem;
+  border-radius: 25px;
+}
+
+.waveultimamax {
+  margin-left: 5rem;
+  border: 1px solid gray;
+  width: 24rem;
+  border-radius: 25px;
+}
+
+.fit2 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px 0 0 0;
+}
+
+.prz3 {
+  width: 100%;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 0 0 15px 15px;
+}
+
+.prz3:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.fitcards {
+  display: flex;
+}
+
+.watchtitle2 {
+  position: absolute;
+  top: 15rem;
+  right: 38rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.btcalling {
+  color: black;
+  background-color: yellow;
+  width: 10rem;
+  position: absolute;
+  right: 40rem;
+  top: 25rem;
+}
+
+.wavepro {
+  margin-left: 5rem;
+  border: 1px solid gray;
+  width: 24rem;
+  border-radius: 25px;
+}
+
+.fit3 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px 0 0 0;
+}
+
+.prz4 {
+  width: 100%;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 0 0 15px 15px;
+}
+
+.prz4:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.watchtitle3 {
+  position: absolute;
+  top: 15rem;
+  right: 13rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.hlthmonitoring {
+  color: black;
+  background-color: yellow;
+  width: 10rem;
+  position: absolute;
+  right: 11rem;
+  top: 25rem;
+}
+
+.waveelite {
+  margin-left: 5rem;
+  border: 1px solid gray;
+  width: 24rem;
+  border-radius: 25px;
+  position: absolute;
+  top: 32rem;
+}
+
+.fit4 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25px 0 0 0;
+}
+
+.prz5 {
+  width: 100%;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 0 0 15px 15px;
+}
+
+.prz5:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.watchtitle4 {
+  position: absolute;
+  top: 0rem;
+  right: 6rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.activitytracker {
+  color: black;
+  background-color: yellow;
+  width: 10rem;
+  position: absolute;
+  right: 4rem;
+  top: 9rem;
+}
+
+.dropdown {
+  margin-top: 1rem;
+}
+
+.horizontal {
+  display: inline;
+}
+
+.btn-category {
+  background-color: white;
+  border: 0px solid white;
+  margin-top: 0.25rem;
+}
+
+.kart{
+  width: 50rem;
+  height: 25rem;
+  float: right;
+}
+
+.cart{
+  margin-left: 5rem;
+}
+
+.shopcart{
+  margin-left: 5rem;
+}
+
+.cat-nav:hover{
+  font-weight: bold;
+}
+
+.btn-category:hover{
+  font-weight: bold;
+}
+
+.cat-nav{
+  color: black;
+}
+
+.corporatejpg{
+  float: left;
+  width: 40rem;
+  height: 40rem;
+}
+
+.corptext{
+  font-size: 4rem;
+}
+
+.sail{
+  font-size: 2rem;
+}
+
+.buttonsubmit {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+.buttonsubmit:hover{
+  color: black;
+  background-color: white;
+}
+
+.personalisationhtml{
+  text-decoration: none;
+  color: black;
+}
+
+.corporatehtml{
+  text-decoration: none;
+  color: black;
+}

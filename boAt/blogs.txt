@@ -1,0 +1,25 @@
+<div class="blogs"><b>Blogs</b></div>
+  <button class="popular">Popular</button><button class="latest">Latest</button>
+  <div class="blog-container">
+    <div class="game"><a href="gamingblog.html">
+        <img src="Blogs/Gaming.jpg" alt="Gaming" class="gamejpg">
+        <p class="lightgray">21 Mar, 2024</p>
+        <h3><b>Gaming Earbuds for Travel: Compact and Portable Gaming...</b></h3>
+        <button class="readmore">Read More</button>
+      </a>
+    </div>
+    <div class="watchface"><a href="watchfaces.html">
+        <img src="Blogs/WatchFaces.jpg" alt="Watch Faces" class="wfjpg">
+        <p class="lightgray2">08 Mar, 2024</p>
+        <h3><b>How To Create Watch Faces Using The Watch Face Studio</b></h3>
+        <button class="readmore2">Read More</button>
+      </a>
+    </div>
+    <div class="chaos"><a href="chaos.html">
+        <img src="Blogs/Chaos.jpg" alt="Chaos" class="chaosjpg">
+        <p class="lightgray3">13 Mar, 2024</p>
+        <h3><b>ANC for Work: How Noise Cancelling Headphones Can Boost...</b></h3>
+        <button class="readmore3">Read More</button>
+      </a>
+    </div>
+  </div>

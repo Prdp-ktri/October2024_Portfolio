@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="disclaimer">
+    <p>Grand Festive Sale is Live - Get upto 60% OFF!<br></p><br>
+    <p class="shop"><br>Shop Now!</p>
+  </div>
+  <nav class="main-nav">
+    <img src="boAt-Logo.png" alt="BoAt Logo" class="logo">
+    <ul>
+      <li class="cat-nav">Categories</li>
+      <li class="cat-nav">boAt Personalisation</li>
+      <li class="cat-nav">Corporate Orders</li>
+      <li class="cat-nav">More</li>
+    </ul>
+    <input type="search" id="searchproducts" placeholder="Search boAt products"><img src="search.png"
+      alt="magnifying-glass" class="magnifyglass">
+    <a href="cart.html"><img src="human.png" alt="human" class="human"><img src="suitcase.png" alt="suitcase"
+        class="suitcase"></a>
+  </nav>
+
+  <div class="shopcart">
+    <h1 class="cart">Shopping Cart</h1>
+    <div id="cart">
+      <ul id="cartItems"></ul>
+      <p id="totalPrice">Total: ₹0</p>
+    </div>
+    <button onclick="clearCart()">Clear Cart</button>
+    <button onclick="goBack()" href="shop.html">Continue Shopping</button><br><br>
+    <label>Enter your name:</label><input type="text"><br>
+    <label>Enter your Phone Number:</label><input type="number"><br>
+    <label for="address">Enter Your Address:</label><textarea name="address" rows="10" cols="30"></textarea>
+    <input type="submit">
+    <img src="cart.jpg" alt="Cart" class="kart">
+  </div>
+
+  <footer class="footer2">
+    <div class="foot">
+      <img src="boAt-Logo.png" alt="boAt Logo" class="footerlogo">
+      <label class="subscribe">Subscribe to our email alerts!</label>
+      <input type="email" name="Enter your email here" id="emailsubscribe" placeholder="Enter You Email Here">
+      <button type="submit" class="submit">Subscribe</button>
+    </div>
+    <div class="shop">
+      <ul>
+        <li><b>SHOP</b></li>
+        <li><a href="wirelessearbuds.html" class="shopwe">True Wireless Earbuds</a></li>
+        <li><a href="wiredearphones.html" class="shopwe">Wired Earphones</a></li>
+        <li><a href="homeaudio.html" class="shopwe">Home Audio</a></li>
+        <li><a href="smartwatches.html" class="shopwe">Smart Watches</a></li>
+        <li><a href="misfittrimmers.html" class="shopwe">Misfit Trimmers</a></li>
+        <li><a href="wlheadphones.html" class="shopwe">Wireless Headphones</a></li>
+        <li><a href="wlspeakers.html" class="shopwe">Wireless Speakers</a></li>
+        <li><a href="mobileaccessories.html" class="shopwe">Mobile Accessories</a></li>
+        <li><a href="trebel.html" class="shopwe">TRebel</a></li>
+        <li><a href="refernearn.html" class="shopwe">Refer & Earn</a></li>
+      </ul>
+    </div>
+    <div class="helpp">
+      <ul>
+        <li><b>HELP</b></li>
+        <li><a href="trackorder.html" class="gethelp">Track Your Order</a></li>
+        <li><a href="warranteensupport.html" class="gethelp">Warranty & Support</a></li>
+        <li><a href="returnpolicy.html" class="gethelp">Return Policy</a></li>
+        <li><a href="servicecenters.html" class="gethelp">Service Centers</a></li>
+        <li><a href="bulkorders.html" class="gethelp">Bulk Orders</a></li>
+        <li><a href="whybuydirect.html" class="gethelp">Why Buy Direct</a></li>
+      </ul>
+    </div>
+    <div class="company">
+      <ul>
+        <li><b>COMPANY</b></li>
+        <li><a href="aboutboat.html" class="companyy">About boAt</a></li>
+        <li><a href="News.html" class="companyy">News</a></li>
+        <li><a href="ourblog.html" class="companyy">Read Our Blog</a></li>
+        <li><a href="careers.html" class="companyy">Careers</a></li>
+        <li><a href="security.html" class="companyy">Security</a></li>
+        <li><a href="investorrelations.html" class="companyy">Investor Relations</a></li>
+        <li><a href="socialresponsibility.html" class="companyy">Social Responsibility</a></li>
+        <li><a href="warranty.html" class="companyy">Warranty Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    let cart = localStorage.getItem('cart') ? localStorage.getItem('cart').split(',') : [];
+    let total = parseFloat(localStorage.getItem('total')) || 0;
+
+    function updateCart() {
+      const cartItems = document.getElementById('cartItems');
+      cartItems.innerHTML = ''; // Clear existing items
+
+      cart.forEach(item => {
+        const [name, price] = item.split(':'); // Split name and price
+        const li = document.createElement('li');
+        li.textContent = `${name} - ₹${parseFloat(price).toFixed(2)}`;
+        cartItems.appendChild(li);
+      });
+
+      document.getElementById('totalPrice').textContent = `Total: ₹${total.toFixed(2)}`;
+    }
+
+    function clearCart() {
+      cart = [];
+      total = 0;
+
+      // Update localStorage
+      localStorage.removeItem('cart');
+      localStorage.removeItem('total');
+
+      updateCart();
+    }
+
+    function goBack() {
+      window.location.href = 'index.html'; // Redirect to the main page
+    }
+
+    // Populate cart on page load
+    updateCart();
+  </script>
+</body>
+
+</html>
