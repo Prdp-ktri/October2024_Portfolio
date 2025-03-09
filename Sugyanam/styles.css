@@ -1,0 +1,246 @@
+body {
+  width: 100%;
+  color: #212529;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.top-nav {
+  width: 100%;
+  background-color: #0065bb;
+  color: #fff;
+}
+
+.top-nav-inside {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+}
+
+.contact-detail img {
+  filter: invert(1);
+  margin-right: 8px;
+}
+
+.contact-detail img:nth-child(2) {
+  margin-left: 8px;
+}
+
+.social-media img {
+  filter: invert(1);
+  margin: 0 4px;
+}
+
+.social-media .linkedin {
+  filter: invert(0);
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: auto;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button.reach {
+  padding: 15px;
+  color: #fff;
+  background-color: #0065bb;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main.hero-section {
+  width: 100%;
+  height: 600px;
+
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(computerlab.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: gray;
+}
+
+.top-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.top-content-inside {
+  width: 85%;
+  margin: auto !important;
+  display: flex;
+  color: #fff;
+}
+
+.left-hero {
+  width: 50%;
+  /* background-color: pink; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right-hero {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn {
+  font-size: larger;
+}
+
+.talent {
+  font-size: 3rem;
+  margin: 15px 0;
+}
+
+.practical {
+  font-size: larger;
+  margin-bottom: 30px;
+}
+
+.hero-cta button {
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.explore {
+  color: #fff;
+  background-color: #0065bb;
+}
+
+.demo {
+  color: #0065bb;
+  background-color: #fff;
+  margin-left: 8px;
+}
+
+.demo:hover {
+  color: #fff;
+  background-color: #0065bb;
+}
+
+.explore:hover {
+  color: #0065bb;
+  background-color: #fff;
+}
+
+.courses {
+  /* background-color: yellow; */
+  width: 200px;
+  height: 300px;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -0.3cm;
+  margin-top: 0.3cm;
+}
+
+.dropdown ul li {
+  display: block;
+}
+
+.dropdown ul li:hover {
+  background-color: #0065bb;
+  color: white;
+}
+
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 450px;
+  background-color: lightblue;
+}
+
+.jobassistance {
+  margin: 50px;
+  padding: 50px;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+}
+
+.labs {
+  margin: 50px;
+  padding: 50px;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+}
+
+.courses {
+  margin: 50px;
+  padding: 50px;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+}
+
+.jobss {
+  width: 20px;
+  height: 20px;
+}
