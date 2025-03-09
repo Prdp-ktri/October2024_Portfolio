@@ -1,0 +1,111 @@
+.sidebar {
+  background-color: lightgray;
+  width: 434px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 20px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  /* background-color: darkred; */
+  margin: 144px auto;
+  height: 58vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pradeep {
+  height: 58vh;
+  /* width: 96vh; */
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 85px;
+}
+
+.name {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 50px;
+}
+
+.moreabout {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 20px;
+  color: white;
+  background-color: turquoise;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button:hover {
+  color: turquoise;
+  background-color: white;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactge {
+  text-align: center;
+  padding-top: 144px;
+}
+
+.contactform {
+  padding-top: 144px;
+  padding: 0 34px;
+}
+
+.contactform form div {
+  padding: 27px 0;
+}
+
+.projects {
+  font-size: 5px;
+}

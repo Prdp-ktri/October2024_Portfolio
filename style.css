@@ -1,0 +1,8 @@
+.container{
+  display: flex;
+}
+
+.carousel slide{
+  width: 1600px;
+  height: 400px;
+}
