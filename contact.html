@@ -25,28 +25,28 @@
     <div class="main">
       <div class="contactform">
         <h1 class="contactge">Contact Me for Work/General Enquiries</h1>
-        <form class="row g-3">
+        <form id="contactForm" class="row g-3">
           <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4"><br>
+            <input type="email" id="email" class="form-control" required><br>
             <br>
             <label>Phone</label>
-            <input type="number"><br>
+            <input type="number" id="phone" required><br>
             <br>
-            <input type="checkbox">I want you to work on a project with me!
+            <input type="checkbox" id="projectInterest">I want you to work on a project with me!
           </div>
 
           <div class="col-12">
             We will never share your contact details with anyone!
-            <div class="buttons"><button type="submit" class="btn btn-primary">Send Details!</button></div>
+            <div class="buttons">
+              <button type="submit" class="btn btn-primary">Send Details!</button>
+            </div>
           </div>
         </form>
       </div>
     </div>
-
   </div>
-
-
+  <script src="script.js"></script>
 </body>
 
 </html>
